@@ -165,7 +165,7 @@ class ControleFitasApp(QWidget):
             self.search_dropdown.clear()
             self.search_dropdown.addItems(fitas_legato)
             self.search_dropdown.setCurrentText("")  # Mantém vazio ao iniciar
-            self.search_dropdown.blockSignals(False)  # ✅ Reativa eventos
+            self.search_dropdown.blockSignals(False)  #
             
             self.table.resizeColumnsToContents()
 
